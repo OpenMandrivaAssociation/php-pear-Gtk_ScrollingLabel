@@ -3,10 +3,12 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
+%define		_requires_exceptions pear(PHPUnit.php)
+
 Summary:	%{_pearname} - A scrolling label for PHP-Gtk
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	%mkrel 8
+Release:	%mkrel 9
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -80,7 +82,4 @@ rm -rf %{buildroot}
 %defattr(644,root,root,755)
 %doc %{_pearname}-%{version}/{example.php,Gtk_ScrollingLabelTest.php}
 %{_datadir}/pear/%{_class}/%{_subclass}.php
-
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
