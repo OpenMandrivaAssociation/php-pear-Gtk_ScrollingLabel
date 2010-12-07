@@ -6,7 +6,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.0
-Release:	%mkrel 12
+Release:	%mkrel 13
 Summary:	A scrolling label for PHP-Gtk
 License:	PHP License
 Group:		Development/PHP
