@@ -8,7 +8,7 @@ Release:	17
 Summary:	A scrolling label for PHP-Gtk
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Gtk_ScrollingLabel/
+URL:		https://pear.php.net/package/Gtk_ScrollingLabel/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
